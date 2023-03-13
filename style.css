@@ -11,7 +11,7 @@ HTML{
 .header{
     background-color: #1F2937;
     color: #fff;
-    width: 800px;
+    width: 785px;
     font-family: sans-serif;
     }
 .head{
@@ -92,12 +92,14 @@ p{
         display: flex;
         width: 500px;
         margin: auto;
+        margin-bottom: 20px;
                
     }
     .boxes p{
         font-size: 12px;
         color: #1F2937;
         padding-top: 5px;
+        text-align: start;
        }
      .boxes{
         padding: 10px;
@@ -109,4 +111,28 @@ p{
         border-radius: 5px; 
         padding: 30px; 
     }
-
+    /* quotes section */
+    .second-body{
+        background-color: #E5E7EB;
+        width: 785px;
+        height: 300px;
+        margin-top: 50px;
+        padding: 100px;
+    }
+    .quote {
+        font-size: 30px;
+        width: 500px;
+        text-align: center;
+        margin: auto;
+        }
+        .quote,.ref{
+        color:#1F2937;
+        font-style: italic;
+        }
+        .ref{
+            margin-top: 10px;
+            text-align: end;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
