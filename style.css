@@ -118,7 +118,8 @@ p{
         height: 300px;
         margin-top: 50px;
         padding: 100px;
-    }
+        margin-bottom: 50px;
+        }
     .quote {
         font-size: 30px;
         width: 500px;
@@ -135,4 +136,25 @@ p{
             font-size: 14px;
             font-weight: bold;
         }
-        
+        /* Styles for call to action */
+
+        .cta-body{
+            height: 200px;
+        }
+        .cta-container{
+            display: flex;
+            margin: 0 50px;
+            width: 680px;
+            border: 1px solid #3882F6;
+            border-radius: 5px;
+            align-items: center;
+            color: #fff;
+            padding: 40px 50px;
+            background-color: #3882F6;
+            justify-content: space-between;
+         }     
+         .cta-btn{
+            border: 1px solid #fff;
+            border-radius: 5px;
+            padding: 5px 20px;
+         }
